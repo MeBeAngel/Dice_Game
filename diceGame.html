@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div>
+            <span class="flag-one hidden"><img src="images/player_1_flag.png" /></span>
+            <span class="title">Dice Game</span>
+            <span class="flag-two hidden"><img src="images/player_2_flag.png" /></span>
+        </div>
+
+        <section class="dice-section">
+
+            <div class="die-item">
+                <div class="player">Player 1</div>
+                <div id="die-1" class="die">
+                    <div class="die-row">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                    </div>
+                    <div class="die-row">
+                        <div class="center hidden"></div>
+                    </div>
+                    <div class="die-row">
+                        <div class="four"></div>
+                        <div class="five"></div>
+                        <div class="six"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="die-item">
+                <div class="player">Player 2</div>
+                <div id="die-2" class="die">
+                    <div class="die-row">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                    </div>
+                    <div class="die-row">
+                        <div class="center hidden"></div>
+                    </div>
+                    <div class="die-row">
+                        <div class="four"></div>
+                        <div class="five"></div>
+                        <div class="six"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <button id="button" type="button"> Play </button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="diceGame.js" async defer></script>
+</body>
+
+</html>
